@@ -1,0 +1,119 @@
+* { 
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+body {
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-areas: "header header header"
+                       "left main right"
+                       "footer footer footer";
+  grid-template-columns: 160px 760px 100px;
+  grid-template-rows: 220px 1000px 70px;
+  min-height: 100vh;  
+}
+.header {
+  grid-area: header;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+}
+.main {
+  grid-area: main;
+  height: 1000px;
+  text-align-last: left;
+  background-image: url(12.jpg);
+  border: 2px solid black;
+}
+.left {
+  grid-area: left;
+  height: 1000px;
+  color: black;
+  background-color:whitesmoke;
+  border: 1px solid black;
+}
+.right {
+  grid-area: right;
+  width: 100px;
+  height: 1000px;
+  background-color: black;
+}
+.footer {
+  grid-area: footer;
+  width: 100%;
+  height: 100%;
+  color: azure;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+}
+.footer p {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 19%;
+}
+.menu li {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 12px;
+  align-content: center;
+}
+ul {
+ position: relative;
+ padding-left: 10%;
+}
+.menu p a {
+  display: block;
+}
+.menu p {
+  display: block;
+  width: 70%;
+  left: 8%;
+  padding: 7px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 3px 3px; 
+}
+.TopMenu {
+  margin: 20px;
+  font-size: 22px;
+}
+.rightSidebar {
+  position: relative;
+  width: 1000px;
+  margin-left: -448px;
+  margin-top: 500px;
+  transform: rotate(450deg);
+  color: brown;
+  font-size: 27px;
+  font-family: 'Montserrat', sans-serif;
+}
+.TopMenu {
+  font-family: 'Montserrat', sans-serif;
+}
+.main ol {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+.logo {
+  margin-top: 15px;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+p {
+  display: block;
+  text-align: left;
+}
