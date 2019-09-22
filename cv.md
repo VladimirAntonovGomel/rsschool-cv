@@ -14,7 +14,8 @@
 ------------
 
 
-
+#### 3. Summary 
+##### As Freddie Mercury said: "I want to be free." I want to live free, see the world, have a favorite hobby and an interesting job. I have no money and rich parents. If I want to achieve this, then only in the IT-sphere. In the IT-sphere you get as much as you are able to learn and develop. It all depends on me. I can search for information, I can solve problems, and the result brings me great pleasure. Unfortunately, I believed in myself only a year ago, but I had to do it 10 years ago. I want to be better, I want to achieve great heights,I want to build my life without regrets, maybe not right away, but I can!
 ------------
 
 
